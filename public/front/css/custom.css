@@ -1,0 +1,77 @@
+.cart-table table tr td.p-qty {
+    width: 16%;
+}
+
+.cart-table table tr td.p-qty {
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    padding-top: 30px;
+}
+
+.cart-buttons a:hover{
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background: #000;
+}
+
+.icon_bag_alt{
+	color: #f4d967;
+	font-size: 20px;
+}
+
+#under-header{
+	width: 150px;
+	height: 140px;
+	border-radius: 100%;
+	background: #202020;
+	margin-right: 170px;
+	margin-top: -120px;
+}
+
+.panier-mobile{
+	padding: 0 45%;
+}
+
+@media (max-width:767px) {
+ #under-header{
+ 	display: none;
+ }
+ .header-section{
+	padding-top: 30px;
+ }
+ .logo-web{
+ 	display: none;
+ }
+ .panier-web{
+	display: none;
+ }
+ .logo-mobile{
+ 	display: block;
+ }
+}
+
+@media (min-width:767px) {
+
+ .logo-mobile{
+ 	display: none;
+ }
+	
+  .panier-mobile{
+	display: none;
+ }
+	
+}
+
+@media (max-width:1200px){
+	#under-header{
+	width: 150px;
+	height: 140px;
+	border-radius: 100%;
+	background: #202020;
+	margin-right: 135px;
+	margin-top: -120px;
+}
+}
+
